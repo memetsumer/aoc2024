@@ -14,7 +14,7 @@ double elapsed(struct timespec start, struct timespec end) {
 
 int main() {
 
-  const char *file_name = "input.txt";
+  const char *file_name = "day1_input.txt";
   FILE *fptr;
   fptr = fopen(file_name, "r");
 
